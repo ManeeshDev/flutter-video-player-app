@@ -1,16 +1,51 @@
 # video_player_app
 
-A new Flutter project.
+### 🏷️ Flutter Commands in Project
 
-## Getting Started
+Flutter doctor
+$ `flutter doctor`
 
-This project is a starting point for a Flutter application.
+Flutter clean
+$ `flutter clean`
 
-A few resources to get you started if this is your first Flutter project:
+Flutter build
+$ `flutter build`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Flutter run verbose
+$ `flutter run --verbose`
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter run
+$ `flutter run`
+
+Run app on specific device (ex device-id: 64519b22)
+$ `flutter run -d <device-id>`
+
+Run app on specific device with detailed analysis
+$ `flutter run -d <device-id> -v`
+
+Flutter Logs
+$ `flutter logs -d <device-id>`
+
+Flutter bug report
+$ `flutter --bug-report`
+
+Flutter test driver
+$ `flutter drive --target=test_driver/app.dart`
+
+Gets dependencies for a Flutter package
+$ `flutter pub get`
+
+Clear pub cache
+$ `flutter pub cache repair`
+
+Check for outdated dependencies
+$ `flutter pub outdated`
+$ `flutter pub outdated --mode=null-safety`
+
+Update with compatible dependencies
+$ `flutter pub upgrade`
+$ `flutter pub upgrade --major-versions`
+
+$ `flutter pub run build_runner build --delete-conflicting-outputs`
+
+
